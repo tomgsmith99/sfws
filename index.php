@@ -55,8 +55,10 @@ while ($row = mysqli_fetch_array($result)) {
 
 		$days_left = date("z", mktime(0, 0, 0, $row['Month'], $row['Day'], date("Y"))) - date("z");
 
-		if ($days_left == 1) { $dateSection .= "<p>Tomorrow is " . get_event_desc($row) . " " . $row["DateString"] . "</p>\n"; }
-		else { $dateSection .= "<p>$days_left days until " . $row['EventDescWithDate'] . "</p>\n"; }
+		$event_string = get_event_desc($row) . " " . $row["DateString"];
+
+		if ($days_left == 1) { $dateSection .= "<p>Tomorrow is " . $event_string . "</p>\n"; }
+		else { $dateSection .= "<p>$days_left days until " . $event_string . "</p>\n"; }
 	}
 }
 
