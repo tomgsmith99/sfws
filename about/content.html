@@ -1,0 +1,76 @@
+<h3>About this site</h3>
+
+<table border = '0'>
+
+	<tr valign = 'top'>
+
+		<td>
+
+			<p>Thanks for visiting the Smith Family Web site. It's maintained by me, Tom Smith, and I use it to:</p>
+
+			<ul>
+				<li>Explore technical concepts, and keep my technical skills sharp (see technical overview below).</li>
+
+				<li>share <a href = '/sfws/pictures'>pictures</a> with family (and friends)</li>
+
+				<li>maintain a <a href = '/sfws/calendar'>family calendar</a></li>
+
+				<li>and most importantly, to run the family <a href = '/baseball' target = '_new'>Fantasy Baseball League</a>.</li>
+
+			</ul>
+
+<p>There's some pictures on the right of the people who generally use this site: my family.</p>
+
+<h3 align ="center">Technical Overview</h3>
+
+<p>In no particular order:</p>
+
+<ul>
+	<li>Most recent development: the images on the right are being served by Amazon Web Services (AWS) CloudFront. Yes, overkill. But pretty cool.</li>
+		<ul><li>The origin of the images is an AWS S3 bucket.</li></ul>
+	<li>This page is being hosted by an AWS EC2 instance that I set up.</li>
+		<ul>
+			<li>Amazon Linux</li>
+			<li>Apache</li>
+			<li>PHP</li>
+			<li>To do: move my legacy MySQL instance from FatCow to RDS</li>
+		</ul>
+	</li>
+	<li>I built the site with a homegrown CMS (PHP and MySQL). I'm pretty
+	strict about using PHP in an object-oriented fashion.</li>
+	<li>I use NetBeans as my editor</li>
+	<li>Of course CSS, though I'm obviously not a designer, and I still cheat a
+		lot using tables.</li>
+	<li>I've incorporated social login into the Pictures portion of the site.</li>
+	<li>The baseball site is relatively sophisticated. During baseball season I 
+		go out to a major sports information web site and retrieve ~400
+		players' stats pages on a daily basis. I parse the pages for stats and
+		then calculate totals for the ~40 participants in the league. All of
+		the participants have 13 players on their starting roster, and they're
+		allowed to drop/add two players during the season. It gets more
+		complicated than you might think. But, it keeps me out of trouble and 
+		it's a great source of entertainment for the family.</li>
+</ul>
+</td>
+
+<td>
+
+<table border = '0'><tr><td><img src = 'http://d3hlvihzs7kpz1.cloudfront.net/sfws/images/about/tom2012.jpg'></td></tr>
+
+<tr><td align = 'center'><p>Me</p></td></tr></table>
+
+<table border = '0'><tr><td><img src = 'http://d3hlvihzs7kpz1.cloudfront.net/sfws/images/about/family2011.jpg'></td></tr>
+
+<tr><td align = 'center'><p>My Family</p></td></tr></table>
+
+<table border = '0'><tr><td><img src = 'http://d3hlvihzs7kpz1.cloudfront.net/sfws/images/about/DudleyFamily.jpg'></td></tr>
+
+<tr><td align = 'center'><p>My Parents' Family</p></td></tr></table>
+
+<table border = '0'><tr><td><img src = 'http://d3hlvihzs7kpz1.cloudfront.net/sfws/images/about/kirkwoodFamily.jpg'></td></tr>
+
+<tr><td align = 'center'><p>My Grandparents' Family (about 80 of us!)</p></td></tr></table>
+
+</tr>
+
+</table>
