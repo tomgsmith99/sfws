@@ -103,7 +103,7 @@ class Thumbnail {
 	    require $paths["includes"] . "/composer/vendor/autoload.php";
 
 	    putenv("AWS_ACCESS_KEY_ID=AKIAJTG24RKPHBICCIAQ");
-	    putenv("AWS_SECRET_ACCESS_KEY=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");
+	    putenv("AWS_SECRET_ACCESS_KEY=");
 
 	    $sharedConfig = [
 		'region'  => 'us-west-2',
