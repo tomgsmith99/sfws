@@ -29,7 +29,7 @@ $content .= "<tr>\n";
 
 $content .= "<td valign = 'top'>\n";
 
-$content .= "<p><a href = '/baseball/'>Diffendorf Family Fantasy Baseball League</a></p>\n";
+$content .= "<p><a href = 'http://baseball.tomgsmith.com'>Diffendorf Family Fantasy Baseball League</a></p>\n";
 
 // Number of upcoming date items to show
 $numberOfItems = 5;
