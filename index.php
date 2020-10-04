@@ -1,6 +1,6 @@
 <?php
 
-$_INCLUDES = $_SERVER['DOCUMENT_ROOT'] . "/sfws/includes/";
+$_INCLUDES = "./includes/";
 
 include $_INCLUDES . "Page.php";
 include $_INCLUDES . "dbconn.php";
