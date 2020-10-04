@@ -1,11 +1,11 @@
 <?php
 
-$_INCLUDES = "./includes/";
+$_INCLUDES = "includes/";
 
 include $_INCLUDES . "Page.php";
 include $_INCLUDES . "dbconn.php";
 
-include $_SERVER["DOCUMENT_ROOT"] . "/sfws/familyCalendar/calendar_utils.php";
+include "familyCalendar/calendar_utils.php";
 
 $mysqli = getdbconn("familyEvents");
 
