@@ -14,8 +14,8 @@ class Page {
 
 		$localNav  = "<p><a href = 'http://baseball.tomgsmith.com'>Baseball</a></p>\n<p>~</p>\n";
 		$localNav .= "<p><a href = '/sfws/pictures/'>Pictures</a></p>\n<p>~</p>\n";
-		$localNav .= "<p><a href = '/sfws/about/'>About</a></p>\n<p>~</p>\n";
-		$localNav .= "<p><a href = '/sfws/familyCalendar/'>Calendar</a></p>\n<p>~</p>\n";
+//		$localNav .= "<p><a href = '/sfws/about/'>About</a></p>\n<p>~</p>\n";
+//		$localNav .= "<p><a href = '/sfws/familyCalendar/'>Calendar</a></p>\n<p>~</p>\n";
 		$this->localNav = $localNav;
 	}
 
