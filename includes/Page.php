@@ -5,7 +5,7 @@ class Page {
 	public function __construct() {
 		global $config;
 
-		$this->content = "<p><a href = 'https://www.linkedin.com/in/tomgsmith99/'>Tom on LinkedIn</a></p>";
+		$this->content = "";
 		$this->css = "/sfws/includes/sfws.css";
 		$this->home = "/sfws";
 		$this->javascript = "";

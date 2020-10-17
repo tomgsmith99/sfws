@@ -64,6 +64,8 @@ while ($row = mysqli_fetch_array($result)) {
 
 $content .= "<a href = '/sfws/pictures/' target = '_blank'><img src = '" . $config["cloudfront"] . "homePage/SamAndHenryFall2015IMG_1511.jpg' border = '1' alt = ''></a>\n";
 
+$content .= "<p><a href = 'https://www.linkedin.com/in/tomgsmith99/'>Tom on LinkedIn</a></p>";
+
 $content .= "</td>\n";
 
 $content .= "</tr>\n";
